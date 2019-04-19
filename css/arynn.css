@@ -1,4 +1,4 @@
-a.navbar-brand > img {
+a.navbar-brand>img {
     height: 60px;
 }
 
@@ -66,7 +66,7 @@ div.col-lg-2 {
 }
 
 div.icon {
-    background: linear-gradient(to bottom right,gray 0%,black 100%) !important;
+    background: linear-gradient(to bottom right, gray 0%, black 100%) !important;
     box-shadow: 0 8px 15px rgba(84, 57, 72, 0.5) !important;
 }
 
@@ -76,10 +76,19 @@ section#contact {
     margin-top: 0 !important;
 }
 
+section#artshowcase {
+    padding-top: 0 !important;
+}
+
+.fitcover {
+    object-fit: cover;
+}
+
 @media screen and (max-width: 991px) {
     section.cover div div div.coverInfo {
         padding: 1rem;
     }
+
     div.coverPhoto {
         padding-left: 15px;
         padding-top: 3rem;
