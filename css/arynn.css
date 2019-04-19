@@ -1,3 +1,7 @@
+a.navbar-brand > img {
+    height: 60px;
+}
+
 section.cover {
     background-image: url("/images/covers/header_flowers.jpg");
     background-repeat: no-repeat;
@@ -15,4 +19,69 @@ section.cover div div div.coverInfo {
     background-color: white;
     padding: 3rem;
     border-radius: 10%;
+    text-align: center;
+}
+
+div.coverPhoto {
+    padding-left: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn:hover {
+    background-color: lightyellow;
+    border-color: lightyellow;
+    color: #6c757d;
+}
+
+a.btn {
+    padding: 0.4rem;
+}
+
+a.btn-success {
+    display: block;
+    width: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto !important;
+    margin-top: 1rem;
+}
+
+div.col-10 {
+    flex: 0 0 67%;
+    max-width: 67%;
+    margin: 0 auto;
+}
+
+div.col-lg-2 {
+    flex: 0 0 33%;
+    max-width: 33%;
+    text-align: center;
+    margin-top: 1.95rem !important;
+}
+
+div.icon {
+    background: linear-gradient(to bottom right,gray 0%,black 100%) !important;
+    box-shadow: 0 8px 15px rgba(84, 57, 72, 0.5) !important;
+}
+
+section#contact {
+    background-color: #191919;
+    color: white !important;
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width: 991px) {
+    section.cover div div div.coverInfo {
+        padding: 1rem;
+    }
+    div.coverPhoto {
+        padding-left: 15px;
+        padding-top: 3rem;
+    }
 }
